@@ -1,0 +1,139 @@
+/* Events Calendar */
+#events {
+	width:100%;
+}
+#events div.event {
+	width:100%;
+	border-bottom:1px solid #ddd;
+	padding:15px 0;
+}
+#events div.event a.event {
+	display:block;
+	font-size:1.2em;
+}
+#events div.event .date {
+	color:#062644;
+	font-weight:bold;
+}
+#events div.event a.register {
+	float:right;
+	background:#6D0111 url(/img/arrow_white.gif) 5px center no-repeat;
+	color:#fff;
+	padding:2px 10px 2px 15px;
+	text-decoration:none;
+}
+#events div.event a.register:hover {
+	background-color:#062644;
+}
+
+
+/* Calendar */
+#calendar_control {
+	width:100%;
+	margin-bottom:10px;
+	text-align:center;
+}
+#calendar_control a.previous {
+	display:inline-block;
+	margin:0 10px 0 0;
+}
+#calendar_control a {
+    text-decoration:none;
+    color:#222;
+}
+#calendar_control a.next {
+	display:inline-block;
+	margin:0 0 0 10px;
+}
+#calendar_control div.month {
+	width:153px;
+	height:25px;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
+	color:#444;
+	float:none;
+	display:inline-block;
+}
+
+
+
+#calendar {
+	width:100%;
+	font-size:.9em;
+}
+#calendar table {
+	width:100%;
+	border-collapse:collapse;
+}
+#calendar table th {
+	background-color:#444;
+	padding:3px;
+	color:#fff;
+	text-align:center;
+}
+#calendar table td {
+	width:14.285%;
+	height:80px;
+	vertical-align:top;
+	line-height:normal;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#calendar table td ul {
+	margin:0;
+	padding:0 0 0 1.3em;
+}
+#calendar table td ul li {
+	margin-bottom:5px;
+}
+#calendar table td a {
+	color:#444;
+	font-size:.95em;
+	/*word-break: break-all;*/
+}
+#calendar table td a:hover {
+	text-decoration:underline;
+}
+#calendar table td.today {
+	background-color:#C4D6DE;
+}
+#calendar table td.pad {
+	background-color:#eee;	
+}
+#calendar table td .day {
+	display:block;
+	margin:0;
+	font-size:.9em;
+	line-height:normal;
+	padding:3px 0 0 5px;
+}
+#calendar table td.today .day {
+	font-weight:bold;
+}
+
+
+/* Event Detail */
+#event {
+	width:500px;
+}
+#event h1 {
+	margin:0 0 3px 0;
+}
+#event .info {
+	font-size:.9em;
+}
+#event .date {
+	color:#062644;
+	font-weight:bold;
+}
+#event a.register {
+	float:right;
+	background:#6D0111 url(/img/arrow_white.gif) 5px center no-repeat;
+	color:#fff;
+	padding:2px 10px 2px 15px;
+	text-decoration:none;
+}
+#event a.register:hover {
+	background-color:#062644;
+}

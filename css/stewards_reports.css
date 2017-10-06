@@ -1,0 +1,498 @@
+/* Stewards Feports Form */
+#stewards_report fieldset {
+	width: 97%;
+	padding: 1%;
+	margin: 0 0 15px 0;
+}
+#stewards_report fieldset legend {
+	font-weight: bold;
+}
+
+#stewards_report div.row {
+	width:774px;
+	border-bottom:1px solid #ddd;
+}
+#stewards_report div.row div.block:first-child {
+	border-left:none;
+}
+#stewards_report div.block {
+	width:247px;
+	padding:5px 5px 10px 5px;
+	border-left:1px solid #ddd;
+}
+#stewards_report div.block input {
+	width:235px;
+}
+#stewards_report div.block.half {
+	width:376px;
+}
+#stewards_report div.block.half input {
+	width:364px;
+}
+
+#stewards_report div.block.quarter {
+	width:182px;
+}
+#stewards_report div.block.quarter input {
+	width:167px;
+}
+
+#stewards_report div.block.full {
+	width:763px;
+}
+#stewards_report div.block.full input, 
+#stewards_report div.block.full textarea {
+	width:751px;
+}
+
+
+#stewards_report fieldset div.row {
+	width: 100%;
+}
+#stewards_report fieldset div.row:last-child {
+	border-bottom: none;
+}
+#stewards_report fieldset div.block.half {
+	width: 48%;
+}
+
+
+
+#stewards_report div.row.submit {
+	border:none;
+	padding-top:15px;
+	padding-left:0;
+}
+#stewards_report div.row.submit input {
+	width:auto;
+	font-weight:bold;
+}
+#stewards_report select {
+	width:auto;
+	font-size:.9em;
+}
+#stewards_report label, 
+#stewards_report div.label {
+	display:block;
+	width:100%;
+	padding-right:0;
+	text-align:left;
+	margin-bottom:2px;
+}
+#stewards_report label.plain,
+#stewards_report label.normal {
+	display:inline;
+	width:auto;
+}
+#stewards_report input.checkbox, 
+#stewards_report input.radio,
+#stewards_report div.block.full input.checkbox, 
+#stewards_report div.block.full input.radio,
+#stewards_report div.block input.checkbox, 
+#stewards_report div.block input.radio {
+	width: auto;
+	padding: 0;
+	border: none;
+}
+
+#stewards_report #project_start_date,
+#stewards_report #pay_period_start,
+#stewards_report #pay_period_ending {
+	width: 100px;
+	margin-right: 5px;
+}
+
+#ui-datepicker-div {
+	font-size: .8em;
+}
+.ui-datepicker-trigger {
+	width: auto;
+	padding: 0;
+	background: 0;
+	border: 0;
+	cursor: pointer;
+}
+
+
+/* Archives */
+#archive {
+    width:162px;
+    margin:0;
+    padding:0;
+    float:left;
+	list-style:none;
+}
+#archive ul {
+    width:162px;
+    margin:0;
+    padding:0;
+	list-style:none;
+}
+#archive .year {
+	display:block;
+	padding:2px 5px;
+	background-color:#444;
+	color:#fff;
+	font-weight:bold;
+}
+#archive a {
+	display:block;
+	padding:2px 5px 2px 18px;
+	margin-bottom:1px;
+	background:#eee url(/img/arrow_blue.gif) 6px center no-repeat;
+	text-decoration:none;
+}
+
+#stewards_report h2 em {
+	margin-left: 10px;
+	font-size: .8em;
+	font-weight: normal;
+}
+
+
+
+/* Work Descriptions */
+#stewards_report #work_descriptions {
+	width:100%;
+}
+#stewards_report #work_descriptions div.work_description {
+	width:100%;
+	margin-bottom:10px;
+}
+#stewards_report #work_descriptions div.work_description div {
+	display:inline;
+	float:none;
+}
+#stewards_report #work_descriptions div.work_description input {
+	width:150px;
+}
+
+#stewards_report div.add_work_description {
+	width:755px;
+	padding:0 4px 6px 4px;
+}
+#stewards_report div.add_work_description a {
+	text-decoration:none;
+}
+#stewards_report div.add_work_description a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+
+
+
+/* Foremen */
+#stewards_report #foremen {
+	width:774px;
+}
+#stewards_report #foremen div.foreman {
+	width:98%;
+	padding: 4px 1%;
+}
+#stewards_report #foremen div.foreman.head {
+	font-size: .9em;
+	font-weight:bold;
+	border-bottom:2px solid;
+	margin-bottom:10px;
+}
+#stewards_report #foremen div.foreman div {
+	margin-right:5px;
+}
+#stewards_report #foremen div.foreman div.first_name,
+#stewards_report #foremen div.foreman div.last_name {
+	width:47%;
+}
+#stewards_report #foremen div.foreman div.first_name input,
+#stewards_report #foremen div.foreman div.last_name input {
+	width:90%;
+}
+#stewards_report .add_foreman {
+	width:97%;
+	padding:1%;
+}
+#stewards_report #add_foreman a {
+	text-decoration:none;
+}
+#stewards_report #add_foreman a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+
+
+
+/* Accidents */
+#stewards_report #accidents {
+	width:774px;
+}
+#stewards_report #accidents div.accident {
+	width:98%;
+	padding: 4px 1%;
+}
+#stewards_report #accidents div.accident.head {
+	font-weight:bold;
+	border-bottom:2px solid;
+	margin-bottom:10px;
+}
+#stewards_report #accidents div.accident div {
+	margin-right:5px;
+}
+#stewards_report #accidents div.accident div.description {
+	width:60%;
+}
+#stewards_report #accidents div.accident div.description textarea {
+	width:90%
+}
+#stewards_report #accidents div.accident div.date {
+	width:38%;
+}
+#stewards_report #accidents div.accident div.date input {
+	width:90%;
+}
+#stewards_report #add_accident {
+	width:97%;
+	padding:1%;
+}
+#stewards_report #add_accident a {
+	text-decoration:none;
+}
+#stewards_report #add_accident a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+
+
+
+/* Workers */
+#stewards_report #workers {
+	width:774px;
+}
+#stewards_report #workers div.worker {
+	width:100%;
+	padding:6px 4px;
+	border-bottom: 1px solid #ccc;
+}
+#stewards_report #workers div.worker:nth-child(even) {
+  background: #efefef;
+}
+#stewards_report #workers fieldset div.worker {
+	width: 99%;
+}
+#stewards_report #workers fieldset div.worker:last-child {
+	border-bottom: none;
+}
+#stewards_report #workers div.worker.head {
+	font-weight:bold;
+	border-bottom:2px solid;
+	margin-bottom:10px;
+}
+#stewards_report #workers div.worker div {
+	margin-right:5px;
+}
+#stewards_report #workers div.worker div.num {
+	width:30px;
+	text-align: center;
+}
+#stewards_report #workers div.worker div.first_name {
+	width:110px;
+}
+#stewards_report #workers div.worker div.first_name input {
+	width:98px;
+}
+#stewards_report #workers div.worker div.last_name {
+	width:110px;
+}
+#stewards_report #workers div.worker div.last_name input {
+	width:98px;
+}
+#stewards_report #workers div.worker div.local_number {
+	width:70px;
+}
+#stewards_report #workers div.worker div.local_number input {
+	width:58px;
+}
+#stewards_report #workers div.worker div.type {
+	width:115px;
+}
+#stewards_report #workers div.worker div.book_number {
+	width:110px;
+}
+#stewards_report #workers div.worker div.book_number input {
+	width:98px;
+}
+#stewards_report #workers div.worker div.month_dues_paid {
+	width:160px;
+}
+#stewards_report #workers div.worker div.month_dues_paid select {
+	width:auto;
+}
+#stewards_report #workers div.worker div.hours_paid {
+	width:700px;
+	padding: 8px 0 5px 35px;
+}
+#stewards_report #workers div.worker div.hours_paid div {
+	width: 17%;
+}
+#stewards_report #workers div.worker div.hours_paid label {
+	font-size: .8em;
+	color: #444;
+}
+#stewards_report #workers div.worker div.hours_paid input {
+	width:75px;
+}
+
+#stewards_report #workers_total_hours div.add_worker {
+	width:250px;
+	padding:4px;
+}
+#stewards_report #workers_total_hours div.add_worker a {
+	text-decoration:none;
+}
+#stewards_report #workers_total_hours div.add_worker a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+#stewards_report #workers_total_hours div.total_hours_worked,
+#stewards_report #workers_total_hours div.total_hours_paid {
+	width:250px;
+	padding:4px;
+	text-align:right;
+}
+#stewards_report #workers_total_hours div.total_hours_worked input,
+#stewards_report #workers_total_hours div.total_hours_paid input {
+	width:88px;
+}
+
+#stewards_report #workers div.worker div.hours_paid div.delete_worker {
+	width: 50px;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+
+
+
+/* Search Form */
+.search .col-west {
+	width: 365px;
+	margin-right: 20px;
+}
+.search .col-east {
+	width: 365px;
+}
+.search .col-full {
+	width: 750px;
+}
+
+.search #main h2 {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 0 0 15px 0;
+}
+.search #main h2~h2 {
+	margin-top: 40px;
+}
+
+
+.search #main #search-form {
+	width: 752px;
+	padding: 10px;
+	margin-bottom: 50px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+.search #main #search-form.hide form {
+	display: none;
+}
+
+.search #toggle-form {
+	float: right;
+	display: block;
+	padding: 5px 10px;
+	background: #eee;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.search #main form div div {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.search #main fieldset {
+	width: 335px;
+	padding: 15px;
+	margin-bottom: 15px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+.search #main .col-full fieldset {
+	width: 720px;
+}
+
+.search #main .col-full ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.search #main .col-full ul li {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+.search label,
+.search div.label {
+	width: 100%;
+	float: none;
+	padding: 0;
+	margin: 0 0 2px 0;
+	text-align: left;
+}
+.search label.normal {
+	width:auto;
+	float:none;
+	padding:0;
+	line-height:inherit;
+	font-weight:normal;
+}
+
+.search div.text input {
+	width: 250px;
+}
+.search div.range input {
+	width: 70px;
+}
+.search div.select select[multiple] {
+	height: 100px;
+}
+
+.search a.export-link {
+	float: right;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+.search a.export-link img {
+	vertical-align: -2px;
+}
+
+.search #search-results {
+	background: #fff;
+	font-size: .9em;
+}

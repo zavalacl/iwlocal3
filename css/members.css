@@ -1,0 +1,430 @@
+/* Announcements */
+#announcements div.upper {
+	border-bottom:1px solid #ddd;
+}
+
+#announcements ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#announcements ul li {
+	padding:2px 0 2px 12px;
+	background:url(/img/arrow_right.gif) 0 7px no-repeat;
+}
+
+#info_links {
+	width:356px;
+	padding:0 30px 20px 0;
+	border-right:1px solid #ddd;
+}
+#job_pictures {
+	width:356px;
+	padding:0 0 20px 30px;
+}
+#other_links {
+	width:208px;
+	padding:0 30px 20px 0;
+}
+#email_registration {
+	width:236px;
+	padding:0 30px 20px 30px;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+#email_registration input {
+	width:230px;
+}
+#email_registration p.submit input {
+	width:auto;
+}
+#applications {
+	width:207px;
+	padding:0 0 20px 30px;
+}
+#applications ul li .description {
+    font-size:.9em;
+}
+
+
+
+/* Death Notices */
+#death_notices {
+	width:550px;
+    padding-right:30px;
+    margin-right:30px;
+    border-right:1px solid #ddd;
+}
+#death_notices div.notice {
+	width:100%;
+	margin-bottom:20px;
+	padding-bottom:5px;
+	border-bottom:1px solid #ddd;
+	line-height:1.2em;
+}
+#death_notices div.notice .name {
+	font-weight:bold;
+}
+#death_notices div.notice .date {
+	font-weight:bold;
+	font-size:.9em;
+	color:#062644;
+}
+#death_notices div.notice .info {
+	font-size:.9em;
+}
+#death_notices div.notice h3 {
+	margin-top:18px;
+}
+
+
+/* News and Views */
+#news {
+	width:100%;
+}
+#news div.post {
+	width:100%;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	border-bottom:1px solid #ddd;
+	line-height:1.2em;
+}
+#news div.post .date {
+	font-weight:bold;
+	font-size:.9em;
+	color:#062644;
+}
+
+
+/* Document Library */
+#documents {
+	width:100%;
+}
+#documents div.document {
+	width:100%;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	border-bottom:1px solid #ddd;
+	line-height:1.2em;
+}
+#documents div.document a.title {
+	font-weight:bold;
+	color:#062644;
+}
+
+
+/* Political Action */
+#political_action_files {
+	width:100%;
+}
+#political_action_files div.file {
+	width:25%;
+	margin-right:0;
+	margin-bottom:15px;
+	padding-bottom:25px;
+	line-height:1.2em;
+	text-align: center;
+}
+#political_action_files div.file:nth-child(4n+1) {
+	clear: left;
+}
+#political_action_files div.file .img {
+	float: none;
+	display: table-cell;
+	width: 100%;
+	height: 162px;
+	margin-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+#political_action_files div.file a.img img {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+#political_action_files div.file a.img:hover img {
+	background: #f1f1f1;
+}
+#political_action_files div.file a.title {
+	display: block;
+	width: 162px;
+	font-weight:bold;
+	color:#062644;
+	text-decoration: none;
+}
+#political_action_files div.file .comment {
+	width: 162px;
+	font-size: .85em;
+	color: #777;
+}
+
+
+/* Stewards Feports Form */
+#stewards_report div.row {
+	width:774px;
+	border-bottom:1px solid #ddd;
+}
+#stewards_report div.row div.block:first-child {
+	border-left:none;
+}
+#stewards_report div.block {
+	width:247px;
+	padding:5px 5px 10px 5px;
+	border-left:1px solid #ddd;
+}
+#stewards_report div.block input {
+	width:235px;
+}
+#stewards_report div.block.half {
+	width:376px;
+}
+#stewards_report div.block.half input {
+	width:364px;
+}
+
+#stewards_report div.block.quarter {
+	width:182px;
+}
+#stewards_report div.block.quarter input {
+	width:167px;
+}
+
+#stewards_report div.block.full {
+	width:763px;
+}
+#stewards_report div.block.full input, 
+#stewards_report div.block.full textarea {
+	width:751px;
+}
+#stewards_report div.row.submit {
+	border:none;
+	padding-top:15px;
+	padding-left:0;
+}
+#stewards_report div.row.submit input {
+	width:auto;
+	font-weight:bold;
+}
+#stewards_report select {
+	width:auto;
+	font-size:.9em;
+}
+#stewards_report label, 
+#stewards_report div.label {
+	display:block;
+	width:100%;
+	padding-right:0;
+	text-align:left;
+	margin-bottom:2px;
+}
+#stewards_report label.plain,
+#stewards_report label.normal {
+	display:inline;
+	width:auto;
+}
+#stewards_report input.checkbox, 
+#stewards_report input.radio,
+#stewards_report div.block.full input.checkbox, 
+#stewards_report div.block.full input.radio,
+#stewards_report div.block input.checkbox, 
+#stewards_report div.block input.radio {
+	width: auto;
+	padding: 0;
+	border: none;
+}
+
+
+/* Archives */
+#archive {
+    width:162px;
+    margin:0;
+    padding:0;
+    float:left;
+	list-style:none;
+}
+#archive ul {
+    width:162px;
+    margin:0;
+    padding:0;
+	list-style:none;
+}
+#archive .year {
+	display:block;
+	padding:2px 5px;
+	background-color:#444;
+	color:#fff;
+	font-weight:bold;
+}
+#archive a {
+	display:block;
+	padding:2px 5px 2px 18px;
+	margin-bottom:1px;
+	background:#eee url(/img/arrow_blue.gif) 6px center no-repeat;
+	text-decoration:none;
+}
+
+#stewards_report h2 em {
+	margin-left: 10px;
+	font-size: .8em;
+	font-weight: normal;
+}
+
+#stewards_report #work_descriptions {
+	width:100%;
+}
+#stewards_report #work_descriptions div.work_description {
+	width:100%;
+	margin-bottom:10px;
+}
+#stewards_report #work_descriptions div.work_description div {
+	display:inline;
+	float:none;
+}
+#stewards_report #work_descriptions div.work_description input {
+	width:150px;
+}
+
+#stewards_report div.add_work_description {
+	width:755px;
+	padding:0 4px 6px 4px;
+}
+#stewards_report div.add_work_description a {
+	text-decoration:none;
+}
+#stewards_report div.add_work_description a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+
+#stewards_report #accidents {
+	width:774px;
+}
+#stewards_report #accidents div.accident {
+	width:100%;
+	padding:4px;
+}
+#stewards_report #accidents div.accident.head {
+	font-weight:bold;
+	border-bottom:2px solid;
+	margin-bottom:10px;
+}
+#stewards_report #accidents div.accident div {
+	margin-right:5px;
+}
+#stewards_report #accidents div.accident div.description {
+	width:540px;
+}
+#stewards_report #accidents div.accident div.description textarea {
+	width:528px;
+}
+#stewards_report #accidents div.accident div.date {
+	width:224px;
+}
+#stewards_report #accidents div.accident div.date input {
+	width:98px;
+}
+#stewards_report #add_accident {
+	width:766px;
+	padding:4px;
+}
+#stewards_report #add_accident a {
+	text-decoration:none;
+}
+#stewards_report #add_accident a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+
+
+
+#stewards_report #workers {
+	width:774px;
+}
+#stewards_report #workers div.worker {
+	width:100%;
+	padding:4px;
+}
+#stewards_report #workers div.worker.head {
+	font-weight:bold;
+	border-bottom:2px solid;
+	margin-bottom:10px;
+}
+#stewards_report #workers div.worker div {
+	margin-right:5px;
+}
+#stewards_report #workers div.worker div.num {
+	width:35px;
+	text-align: center;
+}
+#stewards_report #workers div.worker div.first_name {
+	width:110px;
+}
+#stewards_report #workers div.worker div.first_name input {
+	width:98px;
+}
+#stewards_report #workers div.worker div.last_name {
+	width:110px;
+}
+#stewards_report #workers div.worker div.last_name input {
+	width:98px;
+}
+#stewards_report #workers div.worker div.local_number {
+	width:70px;
+}
+#stewards_report #workers div.worker div.local_number input {
+	width:58px;
+}
+#stewards_report #workers div.worker div.type {
+	width:95px;
+}
+#stewards_report #workers div.worker div.book_number {
+	width:110px;
+}
+#stewards_report #workers div.worker div.book_number input {
+	width:98px;
+}
+#stewards_report #workers div.worker div.month_dues_paid {
+	width:95px;
+}
+#stewards_report #workers div.worker div.month_dues_paid select {
+	width:auto;
+}
+#stewards_report #workers div.worker div.hours_paid {
+	width:100px;
+}
+#stewards_report #workers div.worker div.hours_paid input {
+	width:88px;
+}
+
+#stewards_report #workers_total_hours div.add_worker {
+	width:379px;
+	padding:4px;
+}
+#stewards_report #workers_total_hours div.add_worker a {
+	text-decoration:none;
+}
+#stewards_report #workers_total_hours div.add_worker a img {
+	vertical-align:-3px;
+	margin-right:2px;
+}
+#stewards_report #workers_total_hours div.total_hours {
+	width:374px;
+	padding:4px;
+	text-align:right;
+}
+#stewards_report #workers_total_hours div.total_hours input {
+	width:88px;
+}
+
+
+#stewards_report ul.photos {
+	list-style: none;
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+#stewards_report ul.photos li {
+	display: block;
+	float: left;
+	margin: 0 10px 15px 0;
+}

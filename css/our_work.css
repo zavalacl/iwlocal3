@@ -1,0 +1,28 @@
+#projects {
+	width:700px;
+}
+#projects div.project {
+	width:100%;
+	padding:15px 0;
+	border-bottom:1px solid;
+}
+#projects div.project div.img {
+	width:200px;
+	margin-right:30px;
+}
+#projects div.project div.img .link {
+	font-size:.85em;
+	display:block;
+	float:left;
+}
+#projects div.project div.img img {
+	float:left;
+	margin-bottom:2px;
+}
+#projects div.project div.info {
+	width:470px;
+	padding:5px 0 0 0;
+}
+#projects div.project div.info .title {
+	font-size:1.3em;
+}

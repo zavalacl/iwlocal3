@@ -1,0 +1,114 @@
+#main.inner {
+	padding:27px 0 15px 0;
+	background:#fff url(/img/inner_top.jpg) repeat-x;
+}
+
+#main.inner div.left {
+	width:196px;
+	height:auto;
+	min-height:300px;
+	padding:15px 10px 30px 40px;
+	background:url(/img/lcol_gradient_2.jpg) right top no-repeat;
+}
+* html #main.inner div.left {
+	height:300px;
+}
+
+#main.inner div.left p.login {
+	margin: 0 0 15px 0;
+	border-bottom: 1px solid #fff;
+	color: #777;
+	font-size: .9em;
+	font-weight: bold;
+}
+#main.inner div.left ul#subnav {
+	list-style:none;
+	margin:0;
+	padding:0;
+	height:auto;
+	/*min-height:330px;*/
+}
+#main.inner div.left ul#subnav li {
+	display:block;
+	width:196px;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #fff;
+}
+#main.inner div.left ul#subnav li.h1 {
+	font-weight:bold;
+	font-size:1.1em;
+	margin-top:15px;
+}
+#main.inner div.left ul#subnav li.h2 {
+	font-weight:bold;
+	color:#062644;
+	margin-top:10px;
+}
+#main.inner div.left ul#subnav li a {
+	display:block;
+	padding:2px 5px 2px 12px;
+	margin-bottom:2px;
+	background:url(/img/arrow_blue.gif) left no-repeat;;
+	text-decoration:none;
+	font-size:.95em;
+}
+#main.inner div.left ul#subnav li a:hover, #main.inner div.left ul#subnav li.current a {
+	background:#fff url(/img/arrow_red.gif) left no-repeat;;
+	color:#6d0111;
+}
+#main.inner div.left ul#subnav li.current a {
+	font-weight:bold;
+}
+#main.inner div.left ul#subnav li.sub {
+	width:184px;
+	margin-left:12px;
+}
+
+/* Members Phone Numbers */
+#main.inner div.left ul#phone_numbers { list-style-type: none; margin: 0px; padding: 0px; }
+#main.inner div.left ul#phone_numbers li { padding: 4px 0; display: block; font-size: .9em; border-bottom:solid 1px #ccc; }
+#main.inner div.left ul#phone_numbers li.last { border: none; }
+
+
+#main.inner div.right {
+	width:774px;
+	padding:15px 40px 30px 40px;
+}
+
+#main.inner div.right div.main_left {
+	width:430px;
+	margin-right:44px;
+}
+
+#main.inner div.right div.main_left ul.services li {
+	padding: 3px 0;
+	border-bottom: dotted 1px #b5b5b5;
+}
+
+#main.inner div.right div.main_right {
+	width:300px;
+}
+
+#main.inner div.right div.main_right div.box {
+	font-size:.9em;
+	line-height:1.3em;
+	padding:15px 15px 10px 15px;
+}
+#main.inner div.right div.main_right div.box .title {
+	font-size:1.1em;
+	font-weight:bold;
+	color:#062644;
+	text-decoration:none;
+}
+#main.inner div.right div.main_right div.box a.learn_more {
+	font-weight:bold;
+	font-style:italic;
+	color:#6d0111;
+	text-decoration:none;
+	padding-right:9px;
+	background:url(/img/arrow_red.gif) right no-repeat;
+}
+#main.inner div.right div.main_right div.boxa.learn_more:hover {
+	color:#062644;
+}

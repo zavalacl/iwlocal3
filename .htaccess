@@ -1,0 +1,30 @@
+# Error Documents
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+
+# Misc
+Options -Indexes
+
+# PHP Values
+php_value include_path /usr/home/iwlocal3/public_html/iwlocal3.com/inc/
+# php_value session.cache_limiter private
+php_value upload_max_filesize 8M
+php_value max_input_vars 3000
+php_value error_log /usr/home/iwlocal3/logs/iwlocal3com.log
+
+# PHP Flags
+php_flag register_globals off
+php_flag magic_quotes_gpc off
+php_flag log_errors on
+php_flag display_errors off
+
+
+
+## Mod Rewrite
+Options +FollowSymlinks
+RewriteEngine On
+
+
+## Require HTTPS
+RewriteCond %{SERVER_PORT} !^443
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]

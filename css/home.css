@@ -1,0 +1,118 @@
+#banner {
+	width:1100px;
+	height:260px;
+	position:relative;
+}
+#banner ul {
+	list-style:none;
+	width:1100px;
+	height:260px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:0;
+	z-index:-10;
+}
+#banner ul ii {
+	width:1100px;
+	height:260px;
+	overflow:hidden;
+}
+
+#main.home {
+	padding:15px 0;
+	background:#fff url(/img/home_top.jpg) repeat-x;
+}
+
+#main.home div.left {
+	width:383px;
+	padding:30px 40px;
+	background:url(/img/lcol_gradient.jpg) right top no-repeat;
+}
+
+#main.home div.left ul#what_we_do {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#main.home div.left ul#what_we_do li {
+	display:block;
+	float:left;
+	margin-bottom:15px;
+	font-size:.85em;
+	line-height:1.3em;
+}
+#main.home div.left ul#what_we_do li div.info {
+	width:213px;
+}
+#main.home div.left ul#what_we_do a img {
+	display:block;
+	float:left;
+	margin-right:15px;
+}
+#main.home div.left ul#what_we_do a.title {
+	font-size:1.1em;
+	font-weight:bold;
+	color:#062644;
+	text-decoration:none;
+}
+#main.home div.left ul#what_we_do a.title:hover {
+	color:#666;
+}
+
+
+#main.home div.right {
+	width:557px;
+	padding:30px 40px;
+}
+
+#main.home div.right #video {
+	width:230px;
+	padding:15px 0 0 25px;
+	float:right;
+}
+
+#main.home div.right div.lower {
+	padding:10px 20px;
+	font-size:.84em;
+	line-height:1.4em;
+	background:url(/img/gradient.jpg) repeat-x;
+}
+#main.home div.right div.lower .title {
+	font-size:1.1em;
+	font-weight:bold;
+	color:#062644;
+	text-decoration:none;
+}
+#main.home div.right div.lower a.learn_more {
+	font-weight:bold;
+	font-style:italic;
+	color:#6d0111;
+	text-decoration:none;
+	padding-right:9px;
+	background:url(/img/arrow_red.gif) right no-repeat;
+}
+#main.home div.right div.lower a.learn_more:hover {
+	color:#062644;
+}
+#main.home div.right div.lower div.a {
+	width:175px;
+	padding:5px 0;
+	margin-right:15px;
+}
+
+#main.home div.right div.lower div.b {
+	width:140px;
+	height:200px;
+	padding:5px 15px;
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+}
+#main.home div.right div.lower div.c {
+	width:140px;
+	padding:5px 0 5px 15px;
+}
+
+.pens_logo { width:100%; text-align: right; margin-top:425px;}
+
+#apprentice-popup { display: none; min-width: 741px; min-height: 759px; }
